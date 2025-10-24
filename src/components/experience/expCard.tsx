@@ -1,14 +1,17 @@
-type EducationProps = {
+type ExperienceProps = {
     image: string,
     name: string,
-    description: string,
-    duration: {
-        from: string
-        to: string
-    }
+    position: string,
+    duration: Duration,
+    time: string
 }
 
-export function EduCard({ image, name, description, duration }: EducationProps) {
+type Duration = {
+    from: string,
+    to: string
+}
+
+export function ExpCard({ image, name, position, duration, time }: ExperienceProps) {
     return (
         <>
             <div className="w-full max-w-xs overflow-hidden rounded-lg border border-slate-200 bg-white shadow-lg shadow-slate-950/5">
@@ -21,14 +24,13 @@ export function EduCard({ image, name, description, duration }: EducationProps) 
                         {name}
                     </h6>
                     <p className="my-1 font-sans text-base antialiased">
-                        {description}<br></br>
-                        {duration.from} - {duration.to}
+                        {position}<br></br>
+                        {time}
+                        {/* {duration.from} - {duration.to} */}
                     </p>
-
-                    {/* <span className='bg-emerald-50 text-emerald-600 text-xs font-medium mr-2 px-1.5 py-1 rounded-full'>Pass Class</span> */}
                 </div>
             </div>
-            <br></br>
         </>
     )
+
 }

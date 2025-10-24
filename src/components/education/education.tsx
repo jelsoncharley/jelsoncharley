@@ -1,3 +1,4 @@
+import { eduData } from "../../data/eduData";
 import { EduCard } from "./eduCard";
 
 export function Education() {
@@ -7,10 +8,11 @@ export function Education() {
                 Education
             </p>
             <div className="lg:flex gap-5">
-                <EduCard image="/loyolaloogo.png" name="Loyola" description="Primary and Secondary"></EduCard>
-                <EduCard image="/media-304634621.jpg" name="Fergusson College" description="Higher Secondary"></EduCard>
-                <EduCard image="/uop_logo.jpg" name="University of Pune" description="College"></EduCard>
-                <EduCard image="/Saint-Mary-University-2991839189.jpg" name="Saint Mary's University" description="Masters"></EduCard>
+                {
+                    eduData.map((education, idx) =>
+                        <EduCard key={education.name + idx} image={education.image} name={education.name} description={education.description} duration={education.duration}></EduCard>
+                    )
+                }
             </div>
         </div>
     );

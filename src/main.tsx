@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import { Header } from './shared/header.tsx'
 import { BrowserRouter } from 'react-router'
+import { Footer } from './shared/footer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -11,6 +12,6 @@ createRoot(document.getElementById('root')!).render(
     <BrowserRouter >
       <App />
     </BrowserRouter>
-    {/* <Footer /> */}
+    <Footer />
   </StrictMode>,
 )
