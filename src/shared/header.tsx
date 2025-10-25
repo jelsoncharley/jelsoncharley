@@ -10,14 +10,14 @@ export function Header() {
             <div className="row-start-3 flex gap-6 items-center justify-around p-5">
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="/"
+                    href="#/"
                 >
                     <Person4Icon />
                     About me
                 </a>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="/education"
+                    href="#/education"
                     rel="noopener noreferrer"
                 >
                     <SchoolIcon />
@@ -25,7 +25,7 @@ export function Header() {
                 </a>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="/experience"
+                    href="#/experience"
                     rel="noopener noreferrer"
                 >
                     <WorkIcon />
@@ -33,7 +33,7 @@ export function Header() {
                 </a>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="/projects"
+                    href="#/projects"
                     rel="noopener noreferrer"
                 >
                     <AppShortcutIcon />
