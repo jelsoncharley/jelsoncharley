@@ -2,7 +2,7 @@
   "name": "jelsoncharley",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jelsoncharley.github.io/",
+  "homepage": "https://jelsoncharley.github.io/jelsoncharley/",
   "type": "module",
   "scripts": {
     "dev": "vite",
