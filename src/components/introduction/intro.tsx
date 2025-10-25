@@ -6,7 +6,7 @@ export function Intro() {
     return <>
         <div className="w-4xl justify-self-center font-mono mb-10 mt-10">
             <div className="font-bold text-3xl mb-10">Jelson Chacko</div>
-            <div>Strategic, motivated, individual with experience developing web-based applications and data management systems,
+            <div>Strategic, motivated, individual with over 7 years experience developing web-based applications and data management systems,
                 predominantly in the software development industry. Experienced in all stages of SDLC on both the development and testing side.
                 A dynamic team player who collaborates with others to deliver results within tight timeframes. Dedicated to continuous learning and growth that ensures relevance and competencies in a dynamic industry.
             </div>
