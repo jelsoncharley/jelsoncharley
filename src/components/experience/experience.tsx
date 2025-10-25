@@ -14,7 +14,7 @@ export function Experience() {
                             image={exp.image}
                             name={exp.name}
                             position={exp.position}
-                            duration={exp.duration}
+                            // duration={exp.duration}
                             time={exp.time}></ExpCard>
                     )
                 }

@@ -21,7 +21,7 @@ export const projectData = [
         ]
     },
     {
-        name: "Project: Pareto Tool",
+        name: "Pareto Tool",
         description: "A web application that has been developed to migrate the work done on an Excel sheet to find various parameters using the Pareto Principle.",
         techStack: [
             '.NET Entity Framework', 'Blazor Framework', 'JavaScript', 'D3.js', 'MSSQL', 'Azure DevOps'

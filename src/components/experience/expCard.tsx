@@ -2,16 +2,17 @@ type ExperienceProps = {
     image: string,
     name: string,
     position: string,
-    duration: Duration,
+    // duration: Duration,
     time: string
 }
 
-type Duration = {
-    from: string,
-    to: string
-}
+// type Duration = {
+//     from: string,
+//     to: string
+// }
 
-export function ExpCard({ image, name, position, duration, time }: ExperienceProps) {
+// export function ExpCard({ image, name, position, duration, time }: ExperienceProps) {
+export function ExpCard({ image, name, position, time }: ExperienceProps) {
     return (
         <>
             <div className="w-full max-w-xs overflow-hidden rounded-lg border border-slate-200 bg-white shadow-lg shadow-slate-950/5">

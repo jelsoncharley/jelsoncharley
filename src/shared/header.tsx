@@ -7,7 +7,7 @@ import AppShortcutIcon from '@mui/icons-material/AppShortcut';
 export function Header() {
     return (
         <>
-            <div className="row-start-3 flex gap-6 items-center justify-around p-10">
+            <div className="row-start-3 flex gap-6 items-center justify-around p-5">
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
                     href="/"
