@@ -8,14 +8,6 @@ export default defineConfig({
   server: {
     port: 3001
   },
-  base: "/",
-  build: {
-    outDir: "dist",
-    assetsDir: "assets",
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
+  base: "/jelsoncharley/",
 })
+
