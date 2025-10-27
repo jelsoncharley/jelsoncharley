@@ -31,6 +31,7 @@ export function ExpCard({ image, name, position, time }: ExperienceProps) {
                     </p>
                 </div>
             </div>
+            <br />
         </>
     )
 

@@ -13,7 +13,7 @@ export function Header() {
                     href="#/"
                 >
                     <Person4Icon />
-                    About me
+                    <div className="hidden sm:block">About me</div>
                 </a>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -21,7 +21,7 @@ export function Header() {
                     rel="noopener noreferrer"
                 >
                     <SchoolIcon />
-                    Education
+                    <div className="hidden sm:block">Education</div>
                 </a>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -29,7 +29,7 @@ export function Header() {
                     rel="noopener noreferrer"
                 >
                     <WorkIcon />
-                    Experience
+                    <div className="hidden sm:block">Experience</div>
                 </a>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -37,7 +37,7 @@ export function Header() {
                     rel="noopener noreferrer"
                 >
                     <AppShortcutIcon />
-                    Projects
+                    <div className="hidden sm:block">Projects</div>
                 </a>
                 {/* <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"

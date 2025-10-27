@@ -4,7 +4,7 @@ import { Skills } from "./skills";
 
 export function Intro() {
     return <>
-        <div className="w-4xl justify-self-center font-mono mb-10 mt-10">
+        <div className="m:w-4xl justify-self-center font-mono mb-10 mt-10">
             <div className="font-bold text-3xl mb-10">Jelson Chacko</div>
             <div>Strategic, motivated, individual with over 7 years experience developing web-based applications and data management systems,
                 predominantly in the software development industry. Experienced in all stages of SDLC on both the development and testing side.
@@ -59,15 +59,16 @@ export function Intro() {
                 }
             </div>
         </div> */}
-        <div className="flex w-1xl justify-self-center">
+        <div className="flex sm:w-1xl justify-self-center">
 
-            <div className="grid grid-cols-6 gap-5">
+            {/* <div className="grid md:grid-cols-6 gap-5 sm:grid-cols-3"> */}
+            <div className="grid md:grid-cols-6 gap-5 grid-cols-3">
                 {
                     skillsAll.map((skill) => <Skills skill={skill} />)
                 }
             </div>
         </div>
-        <div className="w-4xl justify-self-center font-mono font-bold text-2xl mb-10 mt-10">
+        <div className="sm:w-4xl justify-self-center font-mono font-bold text-2xl mb-10 mt-10">
             <div>
                 Just Enjoys Learning Sciences Of Novelty
             </div>

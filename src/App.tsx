@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='overflow-y-scroll max-h-[72vh]'>
         <Routes>
           <Route path="/" element={<Intro />} />
           <Route path="/education" element={<Education />} />

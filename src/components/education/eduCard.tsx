@@ -28,7 +28,7 @@ export function EduCard({ image, name, description, duration }: EducationProps) 
                     {/* <span className='bg-emerald-50 text-emerald-600 text-xs font-medium mr-2 px-1.5 py-1 rounded-full'>Pass Class</span> */}
                 </div>
             </div>
-            <br></br>
+            <br />
         </>
     )
 }
