@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import { skillsAll } from "../../data/skillData";
 // import { skills} from "../../data/skillData";
 import { Skills } from "./skills";
@@ -68,9 +69,12 @@ export function Intro() {
                 }
             </div>
         </div>
-        <div className="sm:w-4xl justify-self-center font-mono font-bold text-2xl mb-10 mt-10">
+        <div className="sm:w-4xl justify-self-center font-mono font-bold text-2xl mb-10 mt-5">
             <div>
                 Just Enjoys Learning Sciences Of Novelty
+            </div>
+            <div className="mt-3">
+                <a href="/jelsoncharley/jcresume.pdf" target="_blank"><Button variant="outlined">Resume</Button></a>
             </div>
         </div>
     </>
